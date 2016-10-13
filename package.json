@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "get some info from http://www.gosugamers.net/dota2",
   "main": "index.js",
+  "engines": {
+    "node": "6.x"
+  },
   "scripts": {
     "start": "node index.js"
   },
