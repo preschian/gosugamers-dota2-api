@@ -110,9 +110,7 @@ module.exports = (link, callback) => {
     if (!error && response.statusCode == 200) {
       const html = tag(body)('.content.full-width').html()
 
-      // console.log(parseJson(html)) // this will be callback later
       callback(parseJson(html))
-      // callback(html)
     } else {
       callback(error)
     }
