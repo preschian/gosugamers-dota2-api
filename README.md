@@ -4,3 +4,4 @@ demo url: https://gosugamers-dota2-api.herokuapp.com/
 - [ ] tournament detail
 - [ ] pagination for match detail
 - [ ] link to twitch for live matches
+- [ ] fetch news
