@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "get some info from http://www.gosugamers.net/dota2",
   "main": "index.js",
-  "engines": {
-    "node": "6.x"
-  },
   "scripts": {
     "start": "node index.js"
   },
@@ -14,7 +11,7 @@
   "dependencies": {
     "cached-request": "^1.1.0",
     "cheerio": "^0.22.0",
-    "hapi": "^18.1.0",
+    "hapi": "15.1.1",
     "joi": "^9.1.0",
     "request": "^2.75.0"
   }
